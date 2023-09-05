@@ -4,7 +4,9 @@ The port is specified into your `application.properties`, so the Bank API `baseU
 
 The envs for the database connection are also specified into this file.
 
-use `mvn spring-boot:stop clean package spring-boot:start` to start or restart the server
+It's mandatory to have a MySQL server instance up and running, but the application will take care of the rest.
+
+Use `mvn spring-boot:stop clean package spring-boot:start` to start or restart the server
 
 ## Local endpoints
 
