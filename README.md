@@ -4,7 +4,7 @@ The port is specified into your `application.properties`, so the Bank API `baseU
 
 The envs for the database connection are also specified into this file.
 
-It's mandatory to have a MySQL server instance up and running, but the application will take care of the rest.
+It's mandatory to have a MySQL server instance up and running and a created database at the url specified in the `application.properties` file. The application will take care of the rest.
 
 Use `mvn spring-boot:stop clean package spring-boot:start` to start or restart the server
 
